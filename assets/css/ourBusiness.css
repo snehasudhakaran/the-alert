@@ -1,0 +1,196 @@
+  .container .navbar .nav #business{
+    background-color: #ffb23b;
+    color:black;
+  }
+
+  .container .navbar .nav #magazine{
+    color: rgb(92, 90, 90);
+    background-color: transparent;
+  }
+  
+  .container .boxes .box-1{
+     display:grid;
+     grid-template-columns: 40% 58%;
+     justify-content: space-between;
+  }
+
+  .container .boxes .box-2{
+    margin-top: 2%;
+    display:grid;
+    grid-template-columns: 58% 40%;
+    justify-content: space-between;
+  }
+
+  .container .boxes .bx{
+    position: relative;
+    height:250px;
+  }
+
+  .container .boxes .bx img{
+    position: absolute;
+    width:100%;
+    height:250px;
+  }
+
+  .container .boxes .bxx{
+    background-color: rgb(171, 169, 169,0.2);
+    padding: 40px;
+  }
+
+  .container .boxes .bxx p{
+    font-size: 18px;
+  }
+  
+  .container .boxes .bxx p:nth-child(1){
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  .container .magazines .line1{
+    height:0.5px;
+    margin-bottom: 10px;
+  }  
+  
+  .container .magazines #magazine-title{
+    font-size: 32px;
+  }
+
+  .container .magazines .line2{
+    height:0.5px;
+    margin-top: 10px;
+  }
+
+  @media screen and (min-device-width:370px) and (max-device-width:445px){
+    
+    .container .boxes .box-1 , .container .boxes .box-2{
+      display:block;
+      width: 90%;
+      margin: auto;
+    }
+    
+    .container .boxes .bx{
+      margin-top: 20px;
+      height: 190px;
+    }
+
+    .container .boxes .bx img{
+      position: absolute;
+      width:100%;
+      height:190px;
+    }
+
+    .container .magazines .line1{
+      height:0.5px;
+      margin-bottom: 6px;
+    }  
+
+    .container .magazines #magazine-title{
+      font-size: 23px;
+    }
+
+    .container .magazines .line2{
+      height:0.5px;
+      margin-top: 6px;
+    }
+  
+    .container .boxes .bxx{
+      background-color: rgb(171, 169, 169,0.2);
+      padding: 30px;
+      height: 321.2px;
+      margin-top: 20px;
+    }
+
+    .container .boxes .bxx p{
+      font-size: 16px;
+    }
+    
+    .container .boxes .bxx p:nth-child(1){
+      font-weight: 500;
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+
+  }
+
+  @media screen and (min-device-width:408px) and (max-device-width:445px){
+
+    .container .boxes .bxx{
+      background-color: rgb(171, 169, 169,0.2);
+      padding: 30px;
+      height: 276px;
+      margin-top: 20px;
+    }
+
+  }
+
+  @media screen and (min-device-width:767px) and (max-device-width:769px){
+    .container .boxes .bx{
+      position: relative;
+      height:216px;
+    }
+  
+    .container .boxes .bx img{
+      position: absolute;
+      width:100%;
+      height:216px;
+    }
+  
+    .container .boxes .bxx{
+      background-color: rgb(171, 169, 169,0.2);
+      padding: 15px 16px;
+    }
+  
+    .container .boxes .bxx p{
+      font-size: 14.5px;
+    }
+    
+    .container .boxes .bxx p:nth-child(1){
+      font-weight: 500;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    .container .magazines .line1{
+      height:1px;
+      margin-bottom: 9px;
+    }  
+    
+    .container .magazines #magazine-title{
+      font-size: 26px;
+    }
+  
+    .container .magazines .line2{
+      height:0.5px;
+      margin-top: 9px;
+    }
+  }
+
+  @media screen and (min-device-width:1022px) and (max-device-width:1025px){
+    .container .boxes .bx{
+      position: relative;
+      height:237px;
+    }
+  
+    .container .boxes .bx img{
+      position: absolute;
+      width:100%;
+      height:237px;
+    }
+  
+    .container .boxes .bxx{
+      background-color: rgb(171, 169, 169,0.2);
+      padding: 35px;
+    }
+  
+    .container .boxes .bxx p{
+      font-size: 18px;
+    }
+    
+    .container .boxes .bxx p:nth-child(1){
+      font-weight: 500;
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+  }
+  

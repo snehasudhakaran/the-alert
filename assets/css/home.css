@@ -1,0 +1,1615 @@
+*{
+    margin: 0px;
+    padding:0px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+.container{
+    width:1088px;
+    display:block;
+    margin:auto;
+    /* border:1px solid black; */
+    /* border:1px solid black */
+}
+
+.container .navbar{
+    height:122px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.container .navbar .box{
+    width:82px;
+    height: 82px;
+    background-color: #ffb23b;
+    margin-top: 20px;
+}
+
+.container .navbar .nav{
+  display:flex;
+  gap:0px;
+  margin-left: 100px;
+}
+
+.container .navbar .nav a{
+  text-decoration: none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(92, 90, 90);
+  font-size: 20px;
+}
+
+.container .navbar .nav #home{
+  width:86px;
+  background-color: #ffb23b;
+  color:black;
+}
+
+.container .navbar .nav #about{
+  width:106px;
+  font-size: 20px;
+}
+
+.container .navbar .nav #magazine{
+  width:160px;
+  font-size: 20px;
+}
+
+.container .navbar .nav #business{
+  width:140px;
+}
+
+.container .navbar .icons img{
+   width:40px;
+   height:40px;
+   margin-right: 10px;
+   margin-top: 43.5px;
+   cursor: pointer;
+}
+
+.footer .foot .socials .icons img{
+  width:40px;
+  height:40px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+  .container .line{
+    width:100%;
+    height:0.5px ;
+    background-color:#9B9B9B;
+  }
+
+  .container .section{
+    margin-top: 29px;
+    background:url("../images/slider_01-1.png") no-repeat;
+    background-size: cover;
+    height:617px;
+    position:relative;
+  }
+
+  .container .section::after{
+    position: absolute;
+    content:"";
+    background: linear-gradient(to bottom , transparent,transparent, transparent,rgb(0,0,0,0.1), rgb(0,0,0,0.2),rgb(0,0,0,0.4),rgb(0,0,0,0.6),rgb(0,0,0,0.7),rgb(0,0,0,0.9));
+    width:100%;
+    z-index: 2;
+    height:617px;
+    top:0px;
+  }
+  .container .section .text-wrapper
+  {
+    position:absolute;
+    z-index: 3 ;
+    color:white;
+    margin-top: 385px;
+    padding-left: 30px;
+  }
+  
+  .container .section .text-wrapper span
+  {
+    color:#ffb23b;
+    font-weight: 600;
+    font-size: 24px;
+    margin-bottom: 19px;
+    text-shadow: 2px 6px 5px rgb(0,0,0,0.2);
+  }
+
+  .container .section .text-wrapper h2
+  {
+    font-size: 32px;
+    margin-top: 9px;
+  }
+
+  .container .section .line1{
+    position: absolute;
+    background-color:#565555;
+    z-index: 3;
+    width:100%;
+    height: 0.01em;
+    top: 533px;
+  }
+
+  .container .section .next-prev{
+    position: absolute;
+    top:557px;
+    left: 30px;
+    z-index: 3;
+  }
+
+  .container .section .next-prev button{
+    padding:3px 6px 1px;
+    font-size: 15px;
+    border:none;
+    width:38px;
+    height:38px;
+    background-color: rgb(149, 146, 146);
+    margin-right: 16px;
+  }
+  
+  .container .section .next-prev .next-button{
+    background-color:#ffb23b;
+    
+  }
+
+  .container .section .box-1{
+    position: absolute;
+    width:209px;
+    height:311px;
+    background-color: white;
+    z-index: 3;
+    top:306px;
+    left: 628px;
+    transition: top 0.5s;
+    border-bottom: 11px solid #ffb23b;
+  }
+  
+  .container .section .box-1:hover{
+     top: 285px;
+  }
+
+  .container .section .box-1 img{
+    width:100%;
+    height:176px;
+  }
+
+  .container .section .box-1 h3{
+    font-size: 20px;
+    margin-top: 7px;
+    margin-bottom: 5px;
+    padding-left: 8px;
+  }
+
+  .container .section .box-1 p{
+    font-size: 16px;
+    margin-bottom: 9px;
+    padding-left: 8px;
+    color:rgb(90, 88, 88);
+    font-weight: 500;
+    margin-bottom: 4px;
+  }
+
+  .container .section .box-1 a{
+    font-size: 16px;
+    padding-left: 8px;
+    margin-bottom: 23px;
+    font-weight: 500;
+    color:#0000EE;
+  }
+  
+  .container .section .box-2{
+    bottom:0px;
+    left:850px;
+  }
+
+  .container .about-Us{
+    width:100%;
+    display:grid;
+    grid-template-columns: 443px 56%;
+    gap:45px;
+    margin-top: 56px;
+  }
+
+  .container .about-Us .image img{
+    width:100%;
+    height: 501px;
+  }
+
+  .container .about-Us .about h2{
+    font-size: 32px;
+    margin-bottom: 24px;
+  }
+
+  .container .about-Us .about p{
+    word-spacing: 2px;
+    margin-bottom: 33px;
+    color:rgb(88, 87, 87);
+    font-weight: 400;
+    font-size: 18px;
+  }
+
+  .container .about-Us .about p:nth-child(2){
+    font-weight: 500;
+    font-size: 20px;
+    color:black;
+  }
+
+  .container .about-Us .about button,.container .magazines .view-button button{
+    margin-top:13px;
+    height:58px;
+    width:215px;
+    background-color:  #ffb23b;
+    color:#2E2E2E;
+    font-size: 20px;
+    padding: 6px 40px 9px;
+    border: none;
+  }
+
+  .container .about-Us .about button{
+    margin-top:10px;
+  }
+
+
+  .container .quotes{
+    background-color: rgba(200, 195, 195, 0.2);
+    width:100%;
+    box-sizing: border-box;
+    height:152px;
+    margin: 56px 0px ;
+    padding: 20px;
+    position: relative;
+  }
+  
+  .container .quotes .quote{
+    box-sizing: border-box;
+    border: 1px solid rgb(182, 180, 180);
+    height: 112px;
+    text-align: center;
+    padding-top: 13px;
+    font-weight: 600;
+    font-size: 28px;
+    color:rgb(49, 48, 48);
+  }
+
+  .container .quotes .img{
+    position: absolute;
+    top:-10px;
+    left:151px;
+  }
+
+  .container .quotes .img img{
+    width: 65px;
+    height:61.77px;
+  }
+
+  .container .magazines{
+    margin:40px 0px ;
+  }
+
+  .container .magazines .line1{
+    width:100%;
+    height:0.5px;
+    background-color: rgb(194, 192, 192);
+    margin-bottom: 17px;
+  }  
+  
+  .container .magazines #magazine-title{
+    font-size: 32px;
+    font-weight: 700;
+    color:#2E2E2E;
+    text-align: center;
+  }
+
+  .container .magazines .line2{
+    width:100%;
+    height:0.5px;
+    background-color: rgb(194, 192, 192);
+    margin-top: 17px;
+  }
+
+  .container .magazines .boxes{
+    display:grid;
+    grid-template-columns: 514px 545px;
+    gap:28px;
+    margin-top: 26px;
+  }
+
+  .container .magazines .boxes .box-1 .box1, .container .magazines .boxes .box-1 .box2{
+    display:grid;
+    grid-template-columns: 49% 49%;
+    gap:20px;
+    margin-bottom: 16px;
+  }
+  
+  .container .magazines .boxes .box-1 .box1 .bx,.container .magazines .boxes .box-1 .box2 .bx{
+    height:540px;
+    border-bottom: 5px solid #ffb23b;
+  }
+
+  .container .magazines .boxes .box-1 .box1 .bx img,.container .magazines .boxes .box-1 .box2 .bx img{
+    top:0px;
+    width:100%;
+    height:356px;
+  }
+  
+  .container .magazines .boxes .box-1 .box1 .bx p , .container .magazines .boxes .box-1 .box2 .bx p,.container .magazines .box11 .bx p{
+    font-size: 15px;
+    color:rgb(80, 79, 79);
+    font-weight: 400;
+    margin-top: 12px;
+    margin-bottom: 12px;
+  }
+  
+  .container .magazines .boxes .box-1 .box1 .bx .head, .container .magazines .boxes .box-1 .box2 .bx .head,.container .magazines .box11 .bx  .head{
+    color:black;
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 8px ;
+    margin-top: 12px;
+  }
+
+  .container .magazines .boxes .box-1 .box1 .bx a,.container .magazines .boxes .box-1 .box2 .bx a, .container .magazines .boxes .box-2 .box1 a ,.container .magazines .boxes .box-2 .box2 a ,.container .magazines .box11 .bx a {
+    font-size: 16px;
+    color:#0000EE;
+    font-weight: 500;
+  }
+
+  .container .magazines .boxes .box-1 .box1 .bx small, .container .magazines .boxes .box-1 .box2 .bx small,.container .magazines .box11 .bx small{
+    font-size: 12px;
+    color:grey;
+  }
+  
+  .container .magazines .boxes .box-2{
+    height: 748px;
+    position: relative;
+  }
+
+  .container .magazines .boxes .box-2  .box1{
+    margin-bottom: 10px;
+    background-color: white;
+    border-bottom: 5px solid #ffb23b;
+    height: 707px;
+  }
+
+  .container .magazines .boxes .box-2  .box2{
+    background-color: white;
+    border-bottom: 5px solid #ffb23b;
+    height:373px;
+    margin-top: 16px;
+  }
+
+  .container .magazines .boxes .box-2  .box1 img{
+    width:100%;
+    height: 524px;
+  }
+
+  .container .magazines .boxes .box-2  .box2 img{
+    width:100%;
+    height: 189.5px;
+  }
+  
+  .container .magazines .boxes .box-2 .box1 p:nth-child(2),.container .magazines .boxes .box-2 .box2 p:nth-child(2){
+    font-size: 20px;
+    font-weight: 500;
+    margin: 8px 0px;
+  }
+
+  .container .magazines .boxes .box-2 .box1 small,.container .magazines .boxes .box-2 .box2 small{
+    font-size: 12px;
+    margin-bottom:12px;
+    color:rgb(95, 94, 94);
+  }
+
+  .container .magazines .boxes .box-2 .box1 p:nth-child(4),.container .magazines .boxes .box-2 .box2 p:nth-child(4){
+    margin: 12px 0px;
+    font-size: 16px;
+  }
+  
+  .container .magazines .view-button{
+    text-align: center;
+    margin-top: 52px;
+  }
+  
+  .footer{
+    background-color:#2e2e2e;
+    color:white;
+    width:1366px;
+    display:block;
+    margin: 70px auto;
+    margin-bottom: 0px;
+    position: relative;
+    color: rgb(158, 155, 155);
+    padding-bottom: 20px;
+  }
+
+  .footer .foot{
+    display: grid;
+    grid-template-columns: 280px 156px 380px 250px;
+    padding: 31px 1% 16px 4%;
+    justify-content: center;
+    gap:20px;
+  }
+
+  .footer .foot .brand .brand-name{
+    background-color: #ffb23b;
+    width:82px;
+    height:82px;
+  }
+  
+  .footer .foot .brand .brand-para{
+    font-size: 20px;
+    margin-top: 12px;
+  }
+  
+  .footer .foot .links p,.footer .foot .contact p{
+    font-size: 20px;
+    margin-bottom: 16px;
+  }
+  .footer .foot .contact p{
+    margin-bottom: 28px;
+  }
+
+  .footer .foot .links h3, .footer .foot .contact h3, .footer .socials h3{
+    color:rgb(234, 232, 232);
+    font-size: 22px;
+    font-weight: 400;
+    margin-bottom: 20px;
+  }
+
+  .footer .foot .contact .address{
+    display:flex;
+    gap:10px;
+  }
+
+  .footer .foot .contact .address span{
+    font-size: 23px;
+    color: #ffb23b;
+    cursor: pointer;
+  }
+
+  .footer .foot .contact .address p{
+    margin-top: -1px;
+  }
+
+  .footer .foot .socials img{
+    margin-right: 5px !important;
+  }
+
+  .footer .line{
+    height:1px;
+    background-color: rgb(75, 74, 74);
+    margin: 20px 0px 16px;
+  }
+
+  .footer .copy-Right{
+    text-align: center;
+    font-size: 16px;
+    color:#707070;
+  }
+
+  @media screen and (min-device-width:320px) and (max-device-width:430px){
+    
+    .container{
+      width:90%;
+      display: block;
+      margin: auto;
+      /* border: 1px solid black; */
+    }
+    
+    .container .navbar{
+      width:100%;
+      height:70px;
+      font-size: 15px;
+      display:grid;
+      grid-template-columns: 40px 263px;
+      gap:35px;
+      justify-content: start;
+    }
+    
+    .container .navbar .box{
+      display: block;
+      width:40px;
+      margin-top: 15px;
+      background-color: #ffb23b !important;
+      height: 40px;
+    }
+
+    .container .navbar .nav{
+      display:flex;
+      gap:0px;
+      margin-left: 0px;
+      text-align: center;
+    }
+
+    .container .navbar .nav a{
+      font-size: 14px;
+    }
+
+    .container .navbar .nav #home{
+      font-size: 14px;
+      color:black;
+      width:80px;
+      padding: 6px;
+      background-color: #ffb23b;
+      margin-top: -20px;
+    }
+   
+    .container .navbar .nav #about{
+      width:90px;
+      font-size: 14px;
+      padding: 6px;
+    }
+    
+    .container .navbar .nav #magazine{
+      width:135px;
+      font-size: 14px;
+      padding: 6px;
+    }
+
+    .container .navbar .nav #business{
+      font-size: 14px;
+      width:100px ;
+      padding: 6px;
+    }
+
+    .container .navbar .icons{
+      display:none;
+    }
+    .container .section{
+      height:200px !important;
+    }
+    .container .section::after{
+      height:200px !important;
+      background: linear-gradient(to bottom , transparent,transparent, transparent,rgb(0,0,0,0.1), rgb(0,0,0,0.2),rgb(0,0,0,0.4),rgb(0,0,0,0.8),rgb(0,0,0,0.9),rgb(0,0,0));
+    }
+
+    .container .section .text-wrapper
+    {
+      position:absolute;
+      z-index: 3 ;
+      color:white;
+      margin-top: 130px !important;
+      padding-left: 12px;
+    }
+    
+    .container .section .text-wrapper span
+    {
+      color:#ffb23b;
+      font-weight: bold;
+      font-weight: 600;
+      font-size: 14px;
+      text-shadow: 2px 6px 5px rgb(0,0,0,0.2);
+    }
+  
+    .container .section .text-wrapper h2
+    {
+      font-size: 14px;
+      margin-top: 2px;
+    }
+  
+    .container .section .line1,  .container .section .box-1,.container .section .next-prev{
+      display:none;
+    }
+  
+    .container .section .next-prev button{
+      padding:3px 6px 1px;
+      font-size: 15px;
+      border:none;
+      background-color: rgb(149, 146, 146);
+      margin-right: 10px;
+    }
+    
+    .container .section .next-prev .next-button{
+      background-color:#ffb23b;
+    }
+
+    .container .about-Us{
+      width:100%;
+      display: block;
+      margin-top: 35px;
+    }
+  
+    .container .about-Us .image {
+      width:80%;
+      display: none;
+    }
+  
+    .container .about-Us .about h2{
+      margin-top: -10px;
+      margin-bottom: 16px;
+      font-size: 22px;
+    }
+  
+    .container .about-Us .about p{
+      word-spacing: 2px;
+      font-size: 13px;
+      margin-bottom: 20px;
+    }
+  
+    .container .about-Us .about p:nth-child(2){
+      font-weight: 600;
+      font-size: 15px;
+    }
+  
+    .container .about-Us .about button,.container .magazines .view-button button{
+      margin-top:5px;
+      height:35px;
+      width:120px;
+      font-size: 16px;
+      padding: 3px 20px 6px;
+    }
+    .container .quotes{
+      height:70px;
+      margin: 35px 0px;
+      margin-bottom: -5px;
+      padding: 7px;
+    }
+    
+    .container .quotes .quote{
+      height: 55px;
+      padding-top: 9px;
+      font-weight: 600;
+      font-size: 12px;
+    }
+  
+    .container .quotes .img{
+      top:-5px;
+      left:4%;
+    }
+  
+    .container .quotes .img img{
+      width: 25px;
+      height:25px;
+    }
+
+    .container .magazines .line1{
+      height:0.6px;
+      margin-bottom: 10px;
+    }  
+    
+    .container .magazines #magazine-title{
+      font-size: 22px;
+    }
+  
+    .container .magazines .line2{
+      height:1px;
+      margin-top: 10px;
+    }
+  
+    .container .magazines .boxes{
+
+      display:block;
+      width: 80%;
+      margin: 20px auto;
+    }
+
+    .container .magazines .boxes .box-1 .box1, .container .magazines .boxes .box-1 .box2{
+      display:grid;
+      grid-template-columns: 100%;
+      margin-bottom: 16px;
+    }
+
+    .container .magazines .boxes .box-1 .box1 .bx,.container .magazines .boxes .box-1 .box2 .bx{
+      height: 520px;
+      border-bottom: 5px solid #ffb23b;
+    }
+    
+    .container .magazines .boxes .box-1 .box1 .bx img,.container .magazines .boxes .box-1 .box2 .bx img{
+      top:0px;
+      width:100%;
+      height:340px;
+    }
+
+    .container .magazines .boxes .box-1 .box2 .bxx{
+      margin-top: 5px;
+    }
+      
+  .container .magazines .boxes .box-2{
+    height:1140px;
+    margin-top: 21px;
+  }
+
+  .container .magazines .boxes .box-2  .box1{
+    height:569px !important;
+    margin-bottom: 10px;
+    background-color: white;
+    border-bottom: 5px solid #ffb23b;
+  }
+
+  .container .magazines .boxes .box-2  .box2{
+    background-color: white;
+    border-bottom: 5px solid #ffb23b;
+    height:569px !important;
+    margin-top: 20px;
+  }
+
+  .container .magazines .boxes .box-2 .box1 p:nth-child(2),.container .magazines .boxes .box-2 .box2 p:nth-child(2){
+    font-size: 19px;
+    font-weight: 500;
+  }
+
+  .container .magazines .boxes .box-2  .box1 img{
+    width:100%;
+    height: 300px;
+  }
+
+  .container .magazines .boxes .box-2  .box2 img{
+    width:100%;
+    height: 300px;
+  }
+
+  .container .magazines .view-button{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: -15px;
+  }
+
+  
+  .footer {
+    width:100%;
+  }
+
+  .footer .foot{
+    display: grid;
+    grid-template-columns: 100%;
+    padding: 30px  20px;
+    justify-content: center;
+    gap:45px;
+  }
+
+  .footer .foot .brand .brand-name{
+    background-color: #ffb23b;
+    width:45px;
+    height:45px;
+    margin-bottom: 7px;
+  }
+  
+  .footer .foot .brand .brand-para,.footer .foot .links p,.footer .foot .contact p{
+    font-size: 16px;
+    margin-bottom: -7px;
+  }
+  
+  .footer .foot .links p,.footer .foot .contact p{
+    font-size: 16px;
+    margin-bottom: 3px;
+  }
+
+  .footer .foot .links h3, .footer .foot .contact h3, .footer .socials h3{
+    color:rgb(234, 232, 232);
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .footer .foot .contact{
+    margin-top: -9px;
+  }
+  .footer .foot .contact .address{
+    display:flex;
+    gap:10px;
+    margin-bottom: 16px;
+  }
+
+  .footer .foot .contact .address span{
+    font-size: 18px;
+    margin-top: 1px;
+  }
+
+  .footer .foot .contact .address p{
+    margin-top: -1px;
+  }
+  
+  .footer .foot .socials{
+    margin-top: -20px;
+  }
+
+  .footer .foot .socials .icons{
+    margin-top: 15px;
+    margin-bottom: 5px;
+  }
+
+  .footer .foot .socials .icons img{
+     width:35px;
+     height:35px;
+     margin-right: 4px;
+  }
+
+  .footer .line{
+    height:1px;
+    background-color: rgb(75, 74, 74);
+    margin: 10px 0px 10px;
+  }
+
+  .footer .copy-Right{
+    text-align: center;
+    color:#707070;
+    font-size: 16px;
+    margin-bottom: -10px;
+  }
+
+  .container .magazines .view-button{
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: -15px;
+  }
+  .container .line{
+    width:100%;
+    height:0.3px ;
+    background-color:#9B9B9B;
+  }
+}
+
+  
+  
+  @media screen and (min-device-width:408px) and (max-device-width:445px){    .container .navbar{
+    width:100%;
+    height:70px;
+    font-size: 15px;
+    display:grid;
+    grid-template-columns: 40px 273px;
+    gap:70px;
+    justify-content: start;
+  }
+  
+  .container .navbar .box{
+    display: block;
+    width:43px;
+    margin-top: 13px;
+    background-color: #ffb23b !important;
+    height: 43px;
+  }
+
+  .container .navbar .nav{
+    display:flex;
+    gap:0px;
+    margin-left: 0px;
+    text-align: center;
+  }
+
+  .container .navbar .nav a{
+    font-size: 14px;
+  }
+
+  .container .navbar .nav #home{
+    font-size: 14px;
+    color:black;
+    width:80px;
+    padding: 6px;
+    background-color: #ffb23b;
+    margin-top: -20px;
+  }
+ 
+  .container .navbar .nav #about{
+    width:90px;
+    font-size: 14px;
+    padding: 6px;
+  }
+  
+  .container .navbar .nav #magazine{
+    width:135px;
+    font-size: 14px;
+    padding: 6px;
+  }
+
+  .container .navbar .nav #business{
+    font-size: 14px;
+    width:100px;
+    padding: 6px;
+  }
+
+      .container .quotes .img{
+        top:-5px;
+        left:8%;
+      }
+
+      .container .magazines .line1{
+        height:0.2px;
+        margin-bottom: 7px;
+      }  
+      
+      .container .magazines #magazine-title{
+        font-size: 23px;
+      }
+    
+      .container .magazines .line2{
+        height:1px;
+        margin-top: 7px;
+      }
+    
+      .container .magazines .boxes{
+        display:block;
+        width: 84%;
+        margin: 20px auto;
+      }
+        
+    .container .magazines .boxes .box-2{
+      height:1110px;
+      margin-top: 21px;
+    }
+  
+    .container .magazines .boxes .box-2  .box1{
+      height:548px !important;
+      margin-bottom: 10px;
+      background-color: white;
+      border-bottom: 5px solid #ffb23b;
+    }
+  
+    .container .magazines .boxes .box-2  .box2{
+      background-color: white;
+      border-bottom: 5px solid #ffb23b;
+      height:548px !important;
+      margin-top: 21px;
+    }
+  
+    .container .magazines .boxes .box-2 .box1 p:nth-child(2),.container .magazines .boxes .box-2 .box2 p:nth-child(2){
+      font-size: 19px;
+      font-weight: 500;
+    }
+  
+    .container .magazines .boxes .box-2  .box1 img{
+      width:100%;
+      height: 300px;
+    }
+  
+    .container .magazines .boxes .box-2  .box2 img{
+      width:100%;
+      height: 300px;
+    }
+  
+    .container .magazines .view-button{
+      text-align: center;
+      margin-top: 20px;
+      margin-bottom: -15px;
+    }
+  
+    
+    .footer {
+      width:100%;
+    }
+  
+    .footer .foot{
+      display: grid;
+      grid-template-columns: 100%;
+      padding: 30px  20px;
+      justify-content: center;
+      gap:45px;
+    }
+  
+    .footer .foot .brand .brand-name{
+      background-color: #ffb23b;
+      width:45px;
+      height:45px;
+      margin-bottom: 7px;
+    }
+    
+    .footer .foot .brand .brand-para,.footer .foot .links p,.footer .foot .contact p{
+      font-size: 16px;
+      margin-bottom: -7px;
+    }
+    
+    .footer .foot .links p,.footer .foot .contact p{
+      font-size: 16px;
+      margin-bottom: 3px;
+    }
+  
+    .footer .foot .links h3, .footer .foot .contact h3, .footer .socials h3{
+      color:rgb(234, 232, 232);
+      font-size: 18px;
+      font-weight: 500;
+      margin-bottom: 10px;
+    }
+    
+    .footer .foot .contact{
+      margin-top: -9px;
+    }
+    .footer .foot .contact .address{
+      display:flex;
+      gap:10px;
+      margin-bottom: 16px;
+    }
+  
+    .footer .foot .contact .address span{
+      font-size: 18px;
+      margin-top: 1px;
+    }
+  
+    .footer .foot .contact .address p{
+      margin-top: -1px;
+    }
+    
+    .footer .foot .socials{
+      margin-top: -20px;
+    }
+  
+    .footer .foot .socials .icons{
+      margin-top: 15px;
+      margin-bottom: 5px;
+    }
+  
+    .footer .foot .socials .icons img{
+       width:35px;
+       height:35px;
+       margin-right: 4px;
+    }
+  
+    .footer .line{
+      height:1px;
+      background-color: rgb(75, 74, 74);
+      margin: 10px 0px 10px;
+    }
+  
+    .footer .copy-Right{
+      text-align: center;
+      color:#707070;
+      font-size: 16px;
+      margin-bottom: -10px;
+    }
+  
+    .container .magazines .view-button{
+      text-align: center;
+      margin-top: 50px;
+      margin-bottom: -15px;
+    }
+    .container .line{
+      width:100%;
+      height:0.3px ;
+      background-color:#9B9B9B;
+    }
+  }
+  
+
+  @media screen and (min-device-width:767px) and (max-device-width:769px){
+    .container{
+      width:80%;
+      display: block;
+      margin: auto;
+    }
+    
+    .container .navbar{
+      width:100%;
+      display:flex;
+      justify-content: space-between;
+      height:85px;
+      font-size: 15px;
+    }
+    
+    .container .navbar .box{
+      width:50px;
+      margin-top: 18px;
+      height: 50px;
+    }
+    .container .navbar .icons{
+      display:block;
+      margin-top: -16px;
+    }
+    .container .navbar .icons img{
+      width:35px !important;
+      height: 20px;
+      margin-right: 2px !important;
+    }
+
+    .footer .foot .socials .icons img,.container .navbar .icons img{
+      width:35px ;
+      height:35px ;
+      margin-right: 5px;
+    }
+    
+    .container .navbar .nav{
+      display:flex;
+      gap:0px;
+      margin-left: 10px !important;
+      font-size: 15px;
+    }
+    .container .navbar .nav #home{
+      font-size: 16px;
+      color:black;
+      width:56px;
+      background-color: #ffb23b;
+    }
+   
+    .container .navbar .nav #about{
+      width:80px;
+      font-size: 15px;
+    }
+    
+    .container .navbar .nav #magazine{
+      width:110px;
+      font-size: 15px;
+    }
+
+    .container .navbar .nav #business{
+      width:105px;
+      font-size: 15px;
+    }
+
+    .container .section{
+      height:350px;
+    }
+  
+    .container .section::after{
+      height:350px;
+    }
+    .container .section .text-wrapper
+    {
+      margin-top: 194px;
+    }
+    
+    .container .section .text-wrapper span
+    {
+      color:#fb9905;
+      font-weight: 600;
+      font-size: 19px;
+      text-shadow: 2px 6px 5px rgb(0,0,0,0.2);
+    }
+  
+    .container .section .text-wrapper h2
+    {
+      margin-top: 9px;
+      font-size: 21px;
+    }
+  
+    .container .section .line1{
+      position: absolute;
+      background-color: rgb(141, 138, 138);
+      z-index: 3;
+      width:100%;
+      height: 0.01em;
+      top: 300px;
+    }
+  
+    .container .section .next-prev{
+      position: absolute;
+      top:311px;
+      left: 30px;
+      z-index: 3;
+    }
+
+    .container .section .next-prev button{
+      padding:3px 6px 1px;
+      font-size: 15px;
+      border:none;
+      width:28px;
+      height:28px;
+      background-color: rgb(149, 146, 146);
+      margin-right: 8px;
+    }
+
+    .container .section .box-1{
+      display:none;
+    }
+    .container .about-Us{
+      width:100%;
+      display: block;
+      margin-top: 35px;
+    }
+  
+    .container .about-Us .image {
+      display: none;
+    }
+  
+    .container .about-Us .about h2{
+      font-size: 22px;
+    }
+  
+    .container .about-Us .about p{
+      width:98%;
+      font-size: 16px;
+      margin-bottom: 17px;
+    }
+  
+    .container .about-Us .about p:nth-child(2){
+      font-weight: 700;
+      font-size: 16px;
+    }
+  
+    .container .about-Us .about button,.container .magazines .view-button button{
+      margin-top:5px;
+      height:45px;
+      width:145px;
+      font-size: 18px;
+      padding: 3px 20px 6px;
+    }
+    .container .quotes{
+      height:80px;
+      margin: 35px 0px;
+      margin-bottom: -4px;
+      padding: 7px;
+    }
+    
+    .container .quotes .quote{
+      height: 65px;
+      padding-top: 9px;
+      font-weight: 600;
+      font-size: 16px;
+    }
+  
+    .container .quotes .img{
+      top:-5px;
+      left:15%;
+    }
+  
+    .container .quotes .img img{
+      width: 35px;
+      height: 35px;
+    }
+
+    .container .magazines .line1{
+      height:1px;
+      margin-bottom: 9px;
+    }  
+    
+    .container .magazines #magazine-title{
+      font-size: 24px;
+    }
+  
+    .container .magazines .line2{
+      height:0.5px;
+      margin-top: 9px;
+    }
+  
+    .container .magazines .boxes{
+      display:grid;
+      grid-template-columns: 100%;
+      gap:28px;
+      margin-top: 27px;
+    }
+    .container .magazines .boxes .box-2{
+      display:grid;
+      grid-template-columns: 49% 49%;
+      gap:20px;
+      height: 580px;
+    }
+    .container .magazines .boxes .box-2  .box1{
+      height:592px;
+      margin-top: -23px;
+    }
+  
+    .container .magazines .boxes .box-2  .box2{
+      height:592px;
+      margin-top: -25px;
+    }
+
+    .container .magazines .view-button{
+      text-align: center;
+      margin-top: 30px;
+      margin-bottom: -15px;
+    }
+
+    .container .magazines .boxes .box-2  .box1 img{
+      width:100%;
+      height: 340px;
+    }
+    .container .magazines .boxes .box-2  .box2 img{
+      width:100%;
+      height: 340px;
+    }
+    .footer{
+      width:100%;
+      padding: 20px 0px;
+    }
+  
+    .footer .foot{
+      grid-template-columns: 43% 35%;
+      padding: 20px 60px 20px;
+      justify-content: space-between;
+    }
+    .footer p{
+      font-size: 16px;
+    }
+    .footer .foot .links h3, .footer .foot .contact h3, .footer .socials h3{
+      font-size: 20px;
+    }
+
+    .footer .foot .brand{
+      margin-left: 18px;
+    }
+    .footer .foot .contact{
+      margin-left: 18px;
+      width:300px;
+    }
+    
+    .footer .foot .brand .brand-para,.footer .foot .links p,.footer .foot .contact p{
+      margin-bottom: 10px;
+      font-size: 16px;
+    }
+    .footer .foot .brand .brand-name{
+      background-color: #ffb23b;
+      width:50px;
+      height:50px;
+    }
+    .container .line{
+      width:100%;
+      height:0.3px ;
+      background-color:#9B9B9B;
+    }
+  
+}
+@media screen and (min-device-width:1022px) and (max-width:1025px){
+  .container{
+    width:90%;
+}
+
+.container .navbar{
+    height:100px;
+}
+.container .navbar .nav{
+  margin-left: 50px;
+}
+.container .section .box-1{
+  position: absolute;
+  width:185px;
+  height:265px;
+  background-color: white;
+  z-index: 3;
+  top:185px;
+  left:520px;
+  transition: top 0.5s;
+  border-bottom: 7px solid #ffb23b;
+}
+.container .section .box-1:hover{
+  top: 170px;
+}
+
+.container .section .box-1 img{
+  width:100%;
+  height:130px;
+}
+.container .section .box-2{
+  left:715px;
+}
+.container .navbar .box{
+    width:65px;
+    height:65px;
+    margin-top: 18px;
+}
+.container .navbar .icons{
+  margin-top: -10px;
+}
+.container .navbar .icons img{
+  width:40px;
+  height:40px;
+  margin-right: 3px;
+}
+.container .section{
+  margin-top: 14px;
+  height:450px;
+}
+  
+.container .section::after{
+  height:450px;
+  top:0px;
+}
+.container .section .text-wrapper
+{
+  margin-top: 264px;
+  padding-left: 30px;
+}
+
+.container .section .text-wrapper span
+{
+  font-size: 20px;
+}
+
+.container .section .text-wrapper h2
+{
+  margin-top: 9px;
+  font-size: 25px;
+}
+.container .section .line1{
+  width:100%;
+  top: 385px;
+}
+
+.container .section .next-prev{
+  top:401px;
+  left:30px;
+}
+
+.container .section .next-prev button{
+  padding:3px 6px 1px;
+  font-size: 15px;
+  border:none;
+  width:35px;
+  height:35px;
+  background-color: rgb(149, 146, 146);
+  margin-right: 9px;
+}
+.container .about-Us{
+  display:grid;
+  grid-template-columns: 39% 57%;
+  gap:40px;
+  margin-top: 45px;
+}
+
+.container .about-Us .image img{
+  width:100%;
+  height: 415px;
+}
+
+.container .about-Us .about h2{
+  margin-bottom: 28px;
+  font-size: 22px;
+}
+
+.container .about-Us .about p{
+  word-spacing: 2px;
+  margin-bottom: 18px;
+  font-size: 17px;
+}
+
+/* .container .about-Us .about button,.container .magazines .view-button button{
+  margin-top:13px;
+  height:39px;
+  width:145px;
+  background-color:  #ffb23b;
+  color:black;
+  font-size: 16px;
+  padding: 3px 15px 6px;
+  border: none;
+} */
+.container .about-Us .about button,.container .magazines .view-button button{
+  margin-top:5px;
+  height:45px;
+  width:145px;
+  font-size: 18px;
+  padding: 3px 20px 6px;
+}
+.container .quotes{
+  height:118px;
+  margin: 40px 0px ;
+}
+.container .quotes .quote{
+  height: 79px;
+  font-size: 18px;
+}
+
+.container .quotes .img{
+  position: absolute;
+  top:-10px;
+  left:21%;
+}
+
+.container .quotes .img img{
+  width: 55px;
+}
+.container .magazines .line1{
+  height:0.5px;
+  margin-bottom: 10px;
+}  
+.container .magazines .line2{
+  height:0.5px;
+  margin-top: 10px;
+}
+
+.container .magazines .boxes{
+  display:grid;
+  grid-template-columns: 470px 423px;
+  gap:28px;
+  margin-top: 26px;
+}
+.container .magazines .boxes .box-1 .box1 .bx,.container .magazines .boxes .box-1 .box2 .bx{
+  height:511px;
+}
+.container .magazines .boxes .box-1 .box1 .bx img,.container .magazines .boxes .box-1 .box2 .bx img{
+  top:0px;
+  width:100%;
+  height:309px;
+}
+
+.container .magazines .boxes .box-2  .box1{
+  height:616px;
+}
+
+.container .magazines .boxes .box-2  .box2{
+  background-color: white;
+  border-bottom: 5px solid #ffb23b;
+  height:406px;
+  margin-top: 16px;
+}
+
+.container .magazines .boxes .box-2  .box1 img{
+  width:100%;
+  height: 388px;
+}
+
+.container .magazines .boxes .box-2  .box2 img{
+  width:100%;
+  height: 180px;
+}
+
+
+.container .magazines .boxes .box-2 .box1 p:nth-child(2),.container .magazines .boxes .box-2 .box2 p:nth-child(2){
+  margin: 7px 0px;
+}
+.container .magazines .view-button{
+  margin-top: 20px;
+}
+.footer{
+  margin-top: 50px;
+  width:100%;
+}
+.footer .foot{
+  display: grid;
+  grid-template-columns: 22% 13% 28% 18%;
+  padding: 30px 0px 20px 0px;
+  justify-content: center;
+  gap:30px;
+}
+/* .container{
+  border: 1px solid #ddd;
+} */
+.footer .foot .brand .brand-name{
+  background-color: #ffb23b;
+  width:45px;
+  height:45px;
+}
+.footer .foot .brand .brand-para,.footer .foot .links p,.footer .foot .contact p{
+  font-size: 14px;
+  margin-bottom: 7px;
+}
+.footer .foot .contact{
+  margin-left: 6px;
+}
+.footer .foot .links h3, .footer .foot .contact h3, .footer .socials h3{
+  color:rgb(234, 232, 232);
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 17px;
+}
+.footer .foot .socials .icons{
+  display:flex;
+  margin-right: 5px;
+  width:20px;
+  height:20px;
+}
+
+.footer .foot .socials .icons img{
+  margin-right: 13px !important;
+}
+}
+
+@media screen and (min-device-width:1439px) and (max-device-width:1441px){
+  .container .quotes .img{
+    position: absolute;
+    top:-10px;
+    left:15%;
+  }
+  .contact .navbar{
+    display: flex;
+  }
+  .contact .navbar .nav {
+    width:70%;
+  }
+  .contact .navbar .nav a{
+    font-size: 23px !important;
+  }
+  .container .navbar .nav #home{
+    width:96px;
+    font-size: 23px;
+  }
+
+  .container .navbar .nav #about{
+    width:126px;
+    font-size: 23px;
+  }
+
+  .container .navbar .nav #magazine{
+    font-size: 23px;
+    width:176px;
+  }
+  .container .navbar .nav #business{
+    font-size: 23px;
+    width:156px;
+  }
+  .container .navbar .icons img{
+    width:50px;
+    height:50px;
+    margin-right: 5px;
+    margin-top: 40.5px;
+    cursor: pointer;
+  }
+
+  
+}
