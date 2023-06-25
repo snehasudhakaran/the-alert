@@ -21,6 +21,7 @@
 }
 
 .container .magazines .years {
+    width:100% !important;
     display:flex;
     justify-content: center;
     gap:8px;
@@ -110,10 +111,17 @@
     color: white;
 }
 
+.container .next-button{
+  margin-left: 9px;
+}
+
 .footer{
     margin-top: 40px;
 }
 
+.container .magazines .group-2,.container .magazines .group-3{
+    display:none;
+}
 
 @media screen and (min-device-width:320px) and (max-device-width:396px){
   .container .magazines .years {
@@ -142,19 +150,20 @@
     }
     .container .magazines .box11{
         display:block;
-        width: 80%;
-        margin: 42px auto;
+        width: 90%;
+        margin:  auto;
+        margin-top: -78px;
     }
     
     .container .magazines .box11 .bx{
         border-bottom: 5px solid #ffb23b;
-        height: 480px;
+        height: 525.7px !important;
         margin-top: 22px;
     }
     
     .container .magazines .box11 .bx img{
         width:100%;
-        height:300px;
+        height:340px;
     }
 
     .container .magazines .boxes .box-2{
@@ -164,11 +173,11 @@
       .container .magazines .boxes .box-2  .box2{
         background-color: white;
         border-bottom: 5px solid #ffb23b;
-        height:569px !important;
+        height:522px !important;
         margin-top: 22px;
       }
       .container .magazines .boxes .box-1 .box1 .bx,.container .magazines .boxes .box-1 .box2 .bx{
-        height: 520px;
+        height: 522px;
         border-bottom: 5px solid #ffb23b;
         margin-top: 1px;
       }
@@ -233,6 +242,60 @@
     
     
 }
+@media screen and (min-device-width:319px) and (max-device-width:325px){
+
+  .container .magazines .years {
+    display:flex;
+    padding-left: 268px;
+    gap:2px;
+    justify-content: center;
+    overflow-x: auto;
+    -ms-overflow-style:none;
+    scrollbar-width:none;
+}
+
+.container .magazines .years .year{
+  border: 2px solid  rgb(170, 167, 167);
+  min-width:70px;
+  text-align: center;
+  font-size: 9px !important;
+  font-weight: 400;
+  padding: 4px 10px 6px;
+}
+.container .magazines .years::-webkit-scrollbar {
+  display:none;
+}
+
+.container .magazines .box11{
+  display:block;
+  width: 100%;
+  margin:  auto;
+  margin-top: -78px;
+}
+
+.container .magazines .box11 .bx{
+  border-bottom: 5px solid #ffb23b;
+  height: 522px;
+  margin-top: 22px;
+}
+
+.container .magazines .box11 .bx img{
+  width:100%;
+  height:340px;
+}
+
+.container .magazines .boxes .box-2  .box2{
+  background-color: white;
+  border-bottom: 5px solid #ffb23b;
+  height:522px !important;
+  margin-top: 20px;
+}
+.container .magazines .boxes .box-2  .box2 img{
+  height:340px !important;
+}
+
+
+}
 @media screen and (min-device-width:424px) and (max-device-width:500px){
 
     .container .magazines .line1{
@@ -295,7 +358,7 @@
     }
   
     .container .magazines .boxes .box-2  .box1{
-      height:547px !important;
+      height:530px !important;
       margin-bottom: 10px;
       background-color: white;
       border-bottom: 5px solid #ffb23b;
@@ -304,14 +367,23 @@
     .container .magazines .boxes .box-2  .box2{
       background-color: white;
       border-bottom: 5px solid #ffb23b;
-      height:547px !important;
+      height:527px !important;
       margin-top: 20px;
+    }
+
+    .container .magazines .boxes .box-2  .box1 img{
+      height:350px;
+    }
+
+    .container .magazines .boxes .box-2  .box2 img{
+      height:350px;
     }
 
       .container .magazines .box11{
         display:block;
-        width: 80%;
-        margin: 42px auto;
+        width: 85%;
+        margin: 0px auto;
+        margin-top: -82.9px;
     }
     
     .container .magazines .box11 .bx{
@@ -370,7 +442,7 @@
     .container .magazines .box11{
         display:grid;
         grid-template-columns: 49% 49%;
-        margin-top: 8px;
+        margin-top: 18.7px;
     }
     .container .magazines .years .year{
         min-width:110px;
@@ -443,5 +515,58 @@
     .container .magazines .box11 .bx img{
         height:270px;
     }
+}
+
+@media screen and (min-device-width:1439px) and (max-device-width:1441px){
+  .container .quotes .img{
+    position: absolute;
+    top:-10px;
+    left:15%;
+  }
+  .container .navbar .box{
+    width:250px;
+    height: 82px;
+    background-color: #ffb23b;
+    margin-top: 20px;
+    position: relative;
+    margin-right: 0px;
+}
+
+  .contact .navbar{
+    display: flex;
+  }
+  .contact .navbar .nav {
+    width:70%;
+  }
+  .contact .navbar .nav a{
+    font-size: 23px !important;
+  }
+  .container .navbar .nav #home{
+    width:96px;
+    font-size: 23px;
+  }
+
+  .container .navbar .nav #about{
+    width:126px;
+    font-size: 23px;
+  }
+
+  .container .navbar .nav #magazine{
+    font-size: 23px;
+    width:176px;
+  }
+  .container .navbar .nav #business{
+    font-size: 23px;
+    width:156px;
+  }
+  .container .navbar .icons img{
+    width:40px;
+    height:40px;
+    margin-right: 5px;
+    margin-top: 40.5px;
+    cursor: pointer;
+  }
+
+  
 }
 

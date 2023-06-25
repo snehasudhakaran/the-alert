@@ -243,6 +243,32 @@
       height:300px;
     }
   }
+  @media screen and (min-device-width:319px) and (max-device-width:325px){
+    .container .magazines .line1{
+      height:0.6px;
+      margin-bottom: 5px;
+    }  
+    .container .magazines #magazine-title{
+      font-size: 20px;
+      font-weight: 700;
+      color:rgb(58, 57, 57);
+      text-align: center;
+    }
+    .container .magazines .line2{
+      height:1px;
+      margin-top: 6px;
+    }
+    .container .magazines .text p:nth-child(1){
+      margin-bottom: 18px;
+      font-size: 16px;
+    }
+
+    .container .magazines .text p{
+      margin-bottom: 16px;
+      font-size: 15px;
+    }
+  }
+
   @media screen and (min-device-width:420px) and (max-device-width:427px){
     .container{
       width:90%;
@@ -433,13 +459,13 @@
   height:70px;
   font-size: 15px;
   display:grid;
-  grid-template-columns: 40px 263px;
+  grid-template-columns:100%;
   gap:35px;
   justify-content: start;
 }
 
 .container .navbar .box{
-  display: block;
+  display: none;
   width:40px;
   margin-top: 15px;
   background-color: #ffb23b !important;
@@ -458,24 +484,24 @@
 }
 
 .container .navbar .nav #home{
-  width:80px;
+  width:60px;
 }
 
 .container .navbar .nav #about{
-  width:90px !important;
+  width:150px !important;
   font-size: 14px;
   padding: 7px;
 }
 
 .container .navbar .nav #magazine{
-  width:135px !important;
+  width:235px !important;
   font-size: 14px;
   padding: 7px;
 }
 
 .container .navbar .nav #business{
   font-size: 14px;
-  width:100px !important;
+  width:210px !important;
   padding: 7px;
 }
 
@@ -526,6 +552,7 @@
 
 }
   @media screen and (min-device-width:408px) and (max-device-width:500px){
+  
       .container .profile .alert .box p{
         margin-top: 14px;
       }
@@ -779,46 +806,22 @@
         height:366px;
        }
     }
+    
     @media screen and (min-device-width:1439px) and (max-device-width:1441px){
-      .container .quotes .img{
-        position: absolute;
-        top:-10px;
-        left:15%;
-      }
-      .contact .navbar{
-        display: flex;
-      }
-      .contact .navbar .nav {
-        width:70%;
-      }
-      .contact .navbar .nav a{
-        font-size: 23px !important;
-      }
       .container .navbar .nav #home{
         width:96px !important;
         font-size: 23px;
       }
-    
-      .container .navbar .nav #about{
-        width:126px !important;
-        font-size: 23px;
-      }
-    
       .container .navbar .nav #magazine{
         font-size: 23px;
-        width:186px !important;
+        width:176px !important;
+      }
+      .container .navbar .nav #magazine{
+        font-size: 23px;
+        width:176px !important;
       }
       .container .navbar .nav #business{
         font-size: 23px;
         width:156px !important;
       }
-      .container .navbar .icons img{
-        width:50px;
-        height:50px;
-        margin-right: 5px;
-        margin-top: 40.5px;
-        cursor: pointer;
-      }
-    
     }
-  
