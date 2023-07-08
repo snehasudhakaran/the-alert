@@ -6,7 +6,7 @@
 }
 
 .container{
-    width:1088px;
+    width: 1088px;
     display:block;
     margin:auto;
     /* border:1px solid black; */
@@ -14,6 +14,10 @@
 }
 .container .logo{
   display:none;
+}
+
+a,button{
+  cursor:pointer;
 }
 
 .container .navbar{
@@ -24,9 +28,9 @@
 
 .container .navbar .box{
     width:300px;
-    height: 102px;
+    height: 82px;
     background-color: #ffb23b;
-    margin-top: 10px;
+    margin-top: 20.5px;
     position: relative;
 }
 
@@ -35,7 +39,7 @@
   top:0px;
   left:0px;
   width:100%;
-  height:102px;
+  height:82px;
 }
 
 .container .navbar .nav{
@@ -323,7 +327,7 @@
 
   .container .magazines .boxes{
     display:grid;
-    grid-template-columns: 690px 369px;
+    grid-template-columns: 716px 344px;
     gap:28px;
     margin-top: 26px;
   }
@@ -331,7 +335,7 @@
   .container .magazines .boxes .box-1 .box1, .container .magazines .boxes .box-1 .box2{
     display:grid;
     grid-template-columns: 49% 49%;
-    gap:20px;
+    gap:21.4px;
     margin-bottom: 16px;
   }
   
@@ -427,7 +431,7 @@
   .footer{
     background-color:#2e2e2e;
     color:white;
-    width:1366px;
+    width:1170px;
     display:block;
     margin: 70px auto;
     margin-bottom: 0px;
@@ -447,11 +451,11 @@
   .footer .foot .brand .brand-name{
     background-color: #ffb23b;
     width:230px;
-    height:87px;
+    height:67px;
   }
 
   .footer .foot .brand .brand-name img{
-    height:87px;
+    height:67px;
   }
   
   .footer .foot .brand .brand-para{
@@ -518,6 +522,11 @@
       margin-top: 10px;
       display:block;
       margin-bottom: 5px;
+      height:80px
+    }
+
+    .container .logo img{
+      height:80px;
     }
 
     .container .navbar{
@@ -857,12 +866,12 @@
   }
   .footer .foot .brand .brand-name{
     background-color: #ffb23b;
-    width:160px;
-    height:67px;
+    width:200px;
+    height:57px;
   }
   
   .footer .foot .brand .brand-name img{
-    height:67px;
+    height:57px;
   }
 }
 
@@ -880,10 +889,10 @@
     margin-top: 10px;
     display:block;
     margin-bottom: 10px;
-    height:80px
+    height:70px
   }
   .container .logo img{
-    height:80px;
+    height:70px;
   }
   .container .navbar .nav{
     display:flex ;
@@ -963,6 +972,16 @@
     height: 340px;
   }
 
+  .footer .foot .brand .brand-name{
+    background-color: #ffb23b;
+    width:180px;
+    height:57px;
+  }
+
+  .footer .foot .brand .brand-name img{
+    height:57px;
+  }
+
   
 }
   
@@ -971,6 +990,11 @@
     margin-top: 10px;
     display:block;
     margin-bottom: 5px;
+    height: 85px;
+  }
+ 
+  .container .logo img{
+    height:85px;
   }
   
   .container .navbar{
@@ -1189,7 +1213,7 @@
     }
     .footer .foot .brand .brand-name{
       background-color: #ffb23b;
-      width:160px;
+      width:240px;
       height:67px;
     }
     
@@ -1201,7 +1225,7 @@
 
   @media screen and (min-device-width:767px) and (max-device-width:769px){
     .container{
-      width:80%;
+      width:86%;
       display: block;
       margin: auto;
     }
@@ -1223,7 +1247,7 @@
     }
     
     .container .navbar .box{
-      width:200px;
+      width:220px;
       height: 65px !important;
       background-color: #ffb23b;
       margin-top: 10px;
@@ -1477,12 +1501,12 @@
     }
     .footer .foot .brand .brand-name{
       background-color: #ffb23b;
-      width:190px;
-      height:77px;
+      width:200px;
+      height:67px;
     }
     
     .footer .foot .brand .brand-name img{
-      height:77px;
+      height:67px;
     }
   
 }
@@ -1498,6 +1522,7 @@
   margin-left: 4px;
   width:50% !important;
 }
+
 .container .section .box-1{
   position: absolute;
   width:185px;
@@ -1730,7 +1755,7 @@
 }
 
 .footer .foot .socials .icons img{
-  margin-right: 13px !important;
+  margin-right: 7px !important;
 }
 
 .container .navbar .icons img{
@@ -1742,12 +1767,16 @@
 }
 
 .container .navbar .box{
-  width:250px;
-  height: 82px;
+  width:260px;
+  height: 72px;
   background-color: #ffb23b;
-  margin-top: 9px;
+  margin-top: 14px !important;
   position: relative;
   margin-right: 0px;
+}
+
+.container .navbar .box img{
+  height:72px;
 }
 
 .container .navbar .icons img{
@@ -1761,11 +1790,11 @@
 .footer .foot .brand .brand-name{
   background-color: #ffb23b;
   width:200px;
-  height:77px;
+  height:67px;
 }
 
 .footer .foot .brand .brand-name img{
-  height:77px;
+  height:67px;
 }
 
 
@@ -1779,10 +1808,10 @@
     left:15%;
   }
   .container .navbar .box{
-    width:250px;
+    width:260px;
     height: 82px;
     background-color: #ffb23b;
-    margin-top: 9.5px !important;
+    margin-top: 20.5px !important;
     position: relative;
     margin-right: 0px;
 }
@@ -1820,6 +1849,15 @@
     margin-right: 5px;
     margin-top: 40.5px;
     cursor: pointer;
+  }
+  .footer .foot .brand .brand-name{
+    background-color: #ffb23b;
+    width:200px;
+    height:67px;
+  }
+  
+  .footer .foot .brand .brand-name img{
+    height:67px;
   }
 
   
