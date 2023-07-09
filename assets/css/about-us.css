@@ -148,14 +148,28 @@
     height:391px;
   }
   
-  @media screen and (min-device-width:320px) and (max-device-width:396px){
+  @media screen and (min-device-width:320px) and (max-device-width:530px){
     .container .magazines .text{
       text-align: center;
       width:95%;
       display:block;
       margin:auto;
     }
-
+    .container .quotes{
+      height:80px !important;
+      margin: 35px 0px;
+      margin-bottom: -5px;
+      padding: 7px;
+    }
+    
+    .container .quotes .quote{
+      height: 65px;
+      padding-top: 7px;
+      padding-left: 5px;
+      padding-right: 5px;
+      font-weight: 600;
+      font-size: 12px;
+    }
     .container .magazines .text p:nth-child(1){
       margin-bottom: 22px;
     }
@@ -244,6 +258,69 @@
     }
   }
   @media screen and (min-device-width:319px) and (max-device-width:325px){
+  .container .quotes{
+    height:75px !important;
+    margin: 35px 0px;
+    margin-bottom: 45px;
+    padding: 7px;
+  }
+  
+  .container .quotes .quote{
+    height: 60px !important;
+    padding-top: 3px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 600;
+    font-size: 12px;
+  }
+}
+  @media screen and (min-device-width:445px) and (max-device-width:530px){
+    .container .magazines .boxes{
+      display: grid;
+      grid-template-columns: 70% !important;
+      justify-content: center;
+    }
+    .container .navbar .nav{
+      display:flex ;
+      gap:0px;
+      margin-left: 0px;
+    }
+    .container .navbar .nav #home{
+      width:126px !important;
+      color:black;
+    }
+    
+    .container .navbar .nav #about{
+      width:130px !important;
+    }
+    
+    .container .navbar .nav #magazine{
+      width:160px !important;
+    }
+    
+    .container .navbar .nav #business{
+      width:140px !important;
+    }
+  }
+  @media screen and (min-device-width:405px) and (max-device-width:469px){
+    .container .magazines .magazine-box{
+      width:70% !important;
+      margin: 35px auto;
+    }
+  }
+  @media screen and (min-device-width:470px) and (max-device-width:500px){
+    .container .magazines .magazine-box{
+      width:66% !important;
+      margin: 35px auto;
+    }
+  }
+  @media screen and (min-device-width:501px) and (max-device-width:530px){
+    .container .magazines .magazine-box{
+      width:60% !important;
+      margin: 35px auto;
+    }
+  }
+  @media screen and (min-device-width:319px) and (max-device-width:350px){
     .container .magazines .line1{
       height:0.6px;
       margin-bottom: 5px;
@@ -282,7 +359,7 @@
       height:50px;
       font-size: 15px;
       display:grid;
-      grid-template-columns: 40px 243px;
+      grid-template-columns:100%;
       justify-content: space-between;
     }
     
@@ -419,7 +496,7 @@
   }
 
 }
-@media screen and (min-device-width:370px) and (max-device-width:375px){
+@media screen and (min-device-width:350px) and (max-device-width:405px){
   .container .magazines .magazine-box{
     width:75%;
     margin: 35px auto;
@@ -564,7 +641,7 @@
         height:70px;
         font-size: 15px;
         display:grid;
-        grid-template-columns: 40px 273px;
+        grid-template-columns:100%;
         gap: 70px;
         justify-content: start;
       }
@@ -611,9 +688,14 @@
         width:100px !important;
         padding: 6px;
       }
+
+      .container .navbar .box {
+        display:none;
+      }
+  
     }
   
-    @media screen and (min-device-width:767px) and (max-device-width:769px){
+    @media screen and (min-device-width:707px) and (max-device-width:769px){
 
       .container .section{
         background:url("../images/slider_01-1.png") no-repeat;
@@ -623,11 +705,6 @@
     
       .container .section::after{
         height:300px;
-      }
-
-      .container .section .text-wrapper
-      {
-        margin-top: 184px;
       }
 
       .container .navbar .nav{
@@ -737,7 +814,7 @@
       }
     }
     
-    @media screen and (min-device-width:1022px) and (max-width:1025px){
+    @media screen and (min-device-width:1010px) and (max-width:1155px){
       .container .magazines .line1{
         height:0.3px;
         margin-bottom: 9px;
@@ -807,7 +884,7 @@
        }
     }
     
-    @media screen and (min-device-width:1439px) and (max-device-width:1441px){
+    @media screen and (min-device-width:1156px) and (max-device-width:1441px){
       .container .navbar .nav #home{
         width:96px !important;
         font-size: 23px;

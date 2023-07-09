@@ -16,6 +16,8 @@
   display:none;
 }
 
+
+
 a,button{
   cursor:pointer;
 }
@@ -100,7 +102,7 @@ a,button{
 
   .container .section{
     margin-top: 29px;
-    background:url("../images/slider_01-1.png") no-repeat;
+    background:url("../images/Group_9@2x.png") no-repeat;
     background-size: cover;
     height:617px;
     position:relative;
@@ -252,7 +254,7 @@ a,button{
     color:black;
   }
 
-  .container .about-Us .about button,.container .magazines .view-button button{
+  .container .about-Us .about a,.container .magazines .view-button a{
     margin-top:13px;
     height:58px;
     width:215px;
@@ -261,9 +263,10 @@ a,button{
     font-size: 20px;
     padding: 6px 40px 9px;
     border: none;
+    text-decoration: none;
   }
 
-  .container .about-Us .about button{
+  .container .about-Us .about a{
     margin-top:10px;
   }
 
@@ -327,20 +330,20 @@ a,button{
 
   .container .magazines .boxes{
     display:grid;
-    grid-template-columns: 716px 344px;
+    grid-template-columns: 100%;
     gap:28px;
     margin-top: 26px;
   }
 
   .container .magazines .boxes .box-1 .box1, .container .magazines .boxes .box-1 .box2{
     display:grid;
-    grid-template-columns: 49% 49%;
-    gap:21.4px;
+    grid-template-columns: 32%  32% 32%;
+    justify-content: space-between;
     margin-bottom: 16px;
   }
   
   .container .magazines .boxes .box-1 .box1 .bx,.container .magazines .boxes .box-1 .box2 .bx{
-    height:590px;
+    height:570px;
     border-bottom: 5px solid #ffb23b;
   }
 
@@ -358,7 +361,7 @@ a,button{
     margin-bottom: 12px;
   }
   
-  .container .magazines .boxes .box-1 .box1 .bx .head, .container .magazines .boxes .box-1 .box2 .bx .head,.container .magazines .box11 .bx  .head{
+  .container .magazines .boxes .box-1 .box1 .bx .head, .container .magazines .boxes .box-1 .box2 .bx .head,.container .magazines .box11 .bx  .head,.container .magazines .boxes .box-2 .box1 .bx .head{
     color:black;
     font-weight: 600;
     font-size: 20px;
@@ -366,15 +369,23 @@ a,button{
     margin-top: 12px;
   }
 
+  .container .magazines .boxes .box-1 .box1 .bx,.container .magazines .boxes .box-1 .box2 .bx,.container .magazines .boxes .box-2 .box1,.container .magazines .boxes .box-2 .box2,.container .magazines .box11 .bx {
+    position: relative;
+  }
+
   .container .magazines .boxes .box-1 .box1 .bx a,.container .magazines .boxes .box-1 .box2 .bx a, .container .magazines .boxes .box-2 .box1 a ,.container .magazines .boxes .box-2 .box2 a ,.container .magazines .box11 .bx a {
     font-size: 16px;
     color:#0000EE;
     font-weight: 500;
+    position: absolute;
+    bottom:20px;
   }
 
   .container .magazines .boxes .box-1 .box1 .bx small, .container .magazines .boxes .box-1 .box2 .bx small,.container .magazines .box11 .bx small{
     font-size: 12px;
     color:grey;
+    position: absolute;
+    bottom:65px;
   }
   
   .container .magazines .boxes .box-2{
@@ -463,9 +474,12 @@ a,button{
     margin-top: 12px;
   }
   
-  .footer .foot .links p,.footer .foot .contact p{
+  .footer .foot .links a,.footer .foot .contact p{
+    display:block;
+    color: rgb(158, 155, 155);
     font-size: 20px;
-    margin-bottom: 16px;
+    margin-bottom: 6px;
+    text-decoration: none;
   }
   .footer .foot .contact p{
     margin-bottom: 28px;
@@ -509,7 +523,10 @@ a,button{
     color:#707070;
   }
 
-  @media screen and (min-device-width:320px) and (max-device-width:430px){
+  
+
+ 
+  @media screen and (min-device-width:320px) and (max-device-width:530px){
     
     .container{
       width:90%;
@@ -522,11 +539,11 @@ a,button{
       margin-top: 10px;
       display:block;
       margin-bottom: 5px;
-      height:80px
+      height:80px !important;
     }
 
     .container .logo img{
-      height:80px;
+      height:80px !important;
     }
 
     .container .navbar{
@@ -632,8 +649,9 @@ a,button{
     }
 
     .container .about-Us{
-      width:100%;
+      width:95%;
       display: block;
+      margin: auto;
       margin-top: 35px;
     }
   
@@ -659,7 +677,7 @@ a,button{
       font-size: 15px;
     }
   
-    .container .about-Us .about button,.container .magazines .view-button button{
+    .container .about-Us .about a,.container .magazines .view-button a{
       margin-top:5px;
       height:35px;
       width:120px;
@@ -667,15 +685,17 @@ a,button{
       padding: 3px 20px 6px;
     }
     .container .quotes{
-      height:70px;
+      height:90px;
       margin: 35px 0px;
       margin-bottom: -5px;
       padding: 7px;
     }
     
     .container .quotes .quote{
-      height: 55px;
-      padding-top: 9px;
+      height: 75px;
+      padding-top: 13px;
+      padding-left: 5px;
+      padding-right: 5px;
       font-weight: 600;
       font-size: 12px;
     }
@@ -705,14 +725,18 @@ a,button{
     }
   
     .container .magazines .boxes{
-      display:block;
-      width: 90%;
-      margin: 20px auto;
+      display: grid;
+      grid-template-columns: 90%;
+      justify-content: center;
+    }
+
+    .container .magazines .boxes .box-1 .box1 .home-mag{
+      margin-bottom: 21px;
     }
 
     .container .magazines .boxes .box-1 .box1, .container .magazines .boxes .box-1 .box2{
       display:grid;
-      grid-template-columns: 100%;
+      grid-template-columns: 100% ;
       margin-bottom: 16px;
     }
 
@@ -770,6 +794,8 @@ a,button{
     margin-top: 20px;
     margin-bottom: -15px;
   }
+
+  
 
   
   .footer {
@@ -856,7 +882,7 @@ a,button{
 
   .container .magazines .view-button{
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: -15px;
   }
   .container .line{
@@ -872,6 +898,67 @@ a,button{
   
   .footer .foot .brand .brand-name img{
     height:57px;
+  }
+
+}
+
+@media screen and (min-device-width:319px) and (max-device-width:325px){
+  .container .quotes{
+    height:110px !important;
+    margin: 35px 0px;
+    margin-bottom: -5px;
+    padding: 7px;
+  }
+  
+  .container .quotes .quote{
+    height: 95px !important;
+    padding-top: 13px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-weight: 600;
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-device-width:430px) and (max-device-width:530px){
+  .container .logo{
+    margin-top: 10px;
+    display:block;
+    margin-bottom: 5px;
+    height:100px !important;
+  }
+
+
+  .container .logo img{
+    height:100px !important;
+  }
+
+  .container .magazines .boxes{
+    display: grid;
+    grid-template-columns: 70% !important;
+    justify-content: center;
+  }
+  .container .navbar .nav{
+    display:flex ;
+    gap:0px;
+    margin-left: 0px;
+  }
+  .container .navbar .nav #home{
+    width:126px !important;
+    background-color: #ffb23b;
+    color:black;
+  }
+  
+  .container .navbar .nav #about{
+    width:130px !important;
+  }
+  
+  .container .navbar .nav #magazine{
+    width:160px !important;
+  }
+  
+  .container .navbar .nav #business{
+    width:140px !important;
   }
 }
 
@@ -928,9 +1015,13 @@ a,button{
   }
 
   .container .magazines .boxes{
-    display:block;
-    width: 100%;
-    margin: 20px auto;
+    display: grid;
+    grid-template-columns: 90%;
+    justify-content: center;
+  }
+
+  .container .magazines .boxes .box-1 .box1 .home-mag{
+    margin-bottom: 22px;
   }
 
   .container .magazines .boxes .box-1 .box1 .bx,.container .magazines .boxes .box-1 .box2 .bx{
@@ -1006,6 +1097,8 @@ a,button{
     gap:35px;
     justify-content: start;
   }
+
+  
   
   .container .navbar .box{
     display: none !important;
@@ -1073,9 +1166,9 @@ a,button{
       }
     
       .container .magazines .boxes{
-        display:block;
-        width: 80%;
-        margin: 20px auto;
+        display: grid;
+        grid-template-columns: 90%;
+        justify-content: center;
       }
         
     .container .magazines .boxes .box-2{
@@ -1110,12 +1203,6 @@ a,button{
     .container .magazines .boxes .box-2  .box2 img{
       width:100%;
       height: 340px;
-    }
-  
-    .container .magazines .view-button{
-      text-align: center;
-      margin-top: 20px;
-      margin-bottom: -15px;
     }
   
     
@@ -1203,7 +1290,7 @@ a,button{
   
     .container .magazines .view-button{
       text-align: center;
-      margin-top: 50px;
+      margin-top: 30px;
       margin-bottom: -15px;
     }
     .container .line{
@@ -1223,7 +1310,7 @@ a,button{
   }
   
 
-  @media screen and (min-device-width:767px) and (max-device-width:769px){
+  @media screen and (min-device-width:707px) and (max-device-width:769px){
     .container{
       width:86%;
       display: block;
@@ -1379,7 +1466,7 @@ a,button{
       font-size: 16px;
     }
   
-    .container .about-Us .about button,.container .magazines .view-button button{
+    .container .about-Us .about a,.container .magazines .view-button a{
       margin-top:5px;
       height:45px;
       width:145px;
@@ -1426,10 +1513,19 @@ a,button{
   
     .container .magazines .boxes{
       display:grid;
-      grid-template-columns: 100%;
+      grid-template-columns:100% ;
       gap:28px;
       margin-top: 27px;
     }
+
+    .container .magazines .boxes .box-1 .box1{
+      display:grid;
+      grid-template-columns:49% 49%;
+      justify-content: space-between;
+      margin-top: 27px;
+      row-gap: 35px;
+    }
+
     .container .magazines .boxes .box-2{
       display:grid;
       grid-template-columns: 49% 49%;
@@ -1448,8 +1544,12 @@ a,button{
 
     .container .magazines .view-button{
       text-align: center;
-      margin-top: 30px;
+      margin-top: 40px;
       margin-bottom: -15px;
+    }
+
+    .container .magazines .view-button a{
+      font-size: 20px;
     }
 
     .container .magazines .boxes .box-2  .box1 img{
@@ -1510,7 +1610,103 @@ a,button{
     }
   
 }
-@media screen and (min-device-width:1022px) and (max-width:1025px){
+
+@media screen and (min-device-width:1071px) and (max-width:1100px){
+
+  .container .section{
+    position: relative;
+  }
+  
+  .container .section .box-1{
+    position: absolute;
+    width:185px;
+    height:265px;
+    background-color: white;
+    z-index: 3;
+    top:185px;
+    left:555px !important;
+    transition: top 0.5s;
+    border-bottom: 7px solid #ffb23b;
+  }
+  .container .section .box-1:hover{
+    top: 170px;
+  }
+  
+  .container .section .box-1 img{
+    width:100%;
+    height:130px;
+  }
+  .container .section .box-2{
+    left: 755px !important;
+  }
+
+}
+
+@media screen and (min-device-width:1100px) and (max-width:1155px){
+
+  .container .section{
+    position: relative;
+  }
+  
+  .container .section .box-1{
+    position: absolute;
+    width:185px;
+    height:265px;
+    background-color: white;
+    z-index: 3;
+    top:185px;
+    left:585px !important;
+    transition: top 0.5s;
+    border-bottom: 7px solid #ffb23b;
+  }
+  .container .section .box-1:hover{
+    top: 170px;
+  }
+  
+  .container .section .box-1 img{
+    width:100%;
+    height:130px;
+  }
+  .container .section .box-2{
+    left: 785px !important;
+  }
+
+}
+
+@media screen and (min-device-width:1024px) and (max-width:1071px){
+
+  .container .section{
+    position: relative;
+  }
+  
+  .container .section .box-1{
+    position: absolute;
+    width:185px;
+    height:265px;
+    background-color: white;
+    z-index: 3;
+    top:185px;
+    left:515px !important;
+    transition: top 0.5s;
+    border-bottom: 7px solid #ffb23b;
+  }
+  .container .section .box-1:hover{
+    top: 170px;
+  }
+  
+  .container .section .box-1 img{
+    width:100%;
+    height:130px;
+  }
+  .container .section .box-2{
+    left: 715px !important;
+  }
+
+}
+
+
+
+@media screen and (min-device-width:1010px) and (max-width:1155px){
   .container{
     width:90%;
 }
@@ -1523,6 +1719,10 @@ a,button{
   width:50% !important;
 }
 
+.container .section{
+  position: relative;
+}
+
 .container .section .box-1{
   position: absolute;
   width:185px;
@@ -1530,7 +1730,7 @@ a,button{
   background-color: white;
   z-index: 3;
   top:185px;
-  left:520px;
+  left:500px;
   transition: top 0.5s;
   border-bottom: 7px solid #ffb23b;
 }
@@ -1543,7 +1743,7 @@ a,button{
   height:130px;
 }
 .container .section .box-2{
-  left:715px;
+  left:700px;
 }
 .container .navbar .box{
     width:65px;
@@ -1638,7 +1838,7 @@ a,button{
   padding: 3px 15px 6px;
   border: none;
 } */
-.container .about-Us .about button,.container .magazines .view-button button{
+.container .about-Us .about a,.container .magazines .view-button a{
   margin-top:5px;
   height:45px;
   width:145px;
@@ -1674,7 +1874,7 @@ a,button{
 
 .container .magazines .boxes{
   display:grid;
-  grid-template-columns: 590px 303px;
+  grid-template-columns: 100%;
   gap:28px;
   margin-top: 26px;
 }
@@ -1798,9 +1998,11 @@ a,button{
 }
 
 
-}
+};
 
-@media screen and (min-device-width:1439px) and (max-device-width:1441px){
+
+
+@media screen and (min-device-width:1156px) and (max-device-width:1441px){
  
   .container .quotes .img{
     position: absolute;
