@@ -186,6 +186,20 @@
     
 
   }
+
+  @media screen and (min-device-width:326px) and (max-device-width:357px){
+    .container .boxes .bxx{
+      background-color: rgb(171, 169, 169,0.2);
+      padding: 13.5px  18px!important;
+      height: 500px;
+      margin-top: 20px;
+    }
+    .container .boxes .bxx p{
+      font-size: 16px;
+    }
+  }
+
+ 
   @media screen and (min-device-width:395px) and (max-device-width:500px){
   .container .section .text-wrapper
   {
@@ -197,13 +211,46 @@
   }
 }
 
+@media screen and (min-device-width:395px) and (max-device-width:410px){
+  .container .section .text-wrapper
+{
+  position:absolute;
+  z-index: 3 ;
+  color:white;
+  margin-top: 112px !important;
+  padding-left: 12px;
+}
+}
+
+
   @media screen and (min-device-width:408px) and (max-device-width:445px){
 
     .container .boxes .bxx{
       background-color: rgb(171, 169, 169,0.2);
-      padding: 30px;
-      height: 446px ;
+      padding: 20px 20px;
+      height: 410px ;
       margin-top: 20px;
+    }
+
+  }
+
+  @media screen and (min-device-width:446px) and (max-device-width:530px){
+    .container .boxes .bxx{
+      background-color: rgb(171, 169, 169,0.2);
+      padding: 20px 20px;
+      height: 360px ;
+      margin-top: 20px;
+    }
+  }
+  @media screen and (min-device-width:501px) and (max-device-width:530px){
+
+    .container .section .text-wrapper
+    {
+      position:absolute;
+      z-index: 3 ;
+      color:white;
+      margin-top: 130px !important;
+      padding-left: 12px;
     }
 
   }
@@ -263,6 +310,28 @@
      justify-content: center;
      gap:23px;
    }
+
+   .container .section{
+    height:294px;
+    background-size: cover;
+    padding-right: 50px ;
+  }
+
+  .container .section::after{
+    height:294px;
+  }
+
+  .container .section .text-wrapper
+  {
+    margin-top: 176px;
+  }
+   
+  }
+  @media screen and (min-device-width:707px) and (max-device-width:720px){
+    .container .section .text-wrapper
+  {
+    margin-top: 180px !important;
+  }
   }
 
   @media screen and (min-device-width:1010px) and (max-device-width:1155px){
@@ -353,7 +422,10 @@
       margin-top: 40.5px;
       cursor: pointer;
     }
-  
+    .container .boxes .bxx{
+      background-color: rgb(171, 169, 169,0.2);
+      padding: 13px 25px 25px;
+    }
     
   }
   

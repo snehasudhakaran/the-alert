@@ -124,6 +124,7 @@ a,button{
     color:white;
     margin-top: 385px;
     padding-left: 30px;
+    padding-right: 20px;
   }
   
   .container .section .text-wrapper span
@@ -190,13 +191,13 @@ a,button{
 
   .container .section .box-1 img{
     width:100%;
-    height:176px;
+    height:230px;
   }
 
   .container .section .box-1 h3{
-    font-size: 20px;
+    font-size: 14px;
     margin-top: 7px;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
     padding-left: 8px;
   }
 
@@ -210,9 +211,8 @@ a,button{
   }
 
   .container .section .box-1 a{
-    font-size: 16px;
+    font-size: 14px;
     padding-left: 8px;
-    margin-bottom: 23px;
     font-weight: 500;
     color:#0000EE;
   }
@@ -795,9 +795,6 @@ a,button{
     margin-bottom: -15px;
   }
 
-  
-
-  
   .footer {
     width:100%;
   }
@@ -822,7 +819,7 @@ a,button{
     margin-bottom: -7px;
   }
   
-  .footer .foot .links p,.footer .foot .contact p{
+  .footer .foot .links a,.footer .foot .contact p{
     font-size: 16px;
     margin-bottom: 3px;
   }
@@ -918,6 +915,7 @@ a,button{
     font-weight: 600;
     font-size: 12px;
   }
+
 }
 
 @media screen and (min-device-width:430px) and (max-device-width:530px){
@@ -1230,7 +1228,7 @@ a,button{
       margin-bottom: -7px;
     }
     
-    .footer .foot .links p,.footer .foot .contact p{
+    .footer .foot .links a,.footer .foot .contact p{
       font-size: 16px;
       margin-bottom: 3px;
     }
@@ -1580,9 +1578,13 @@ a,button{
     .footer .foot .brand{
       margin-left: 18px;
     }
+    .footer .foot .links a{
+      font-size: 16px;
+    }
     .footer .foot .contact{
       margin-left: 18px;
       width:300px;
+      margin-top: -60px;
     }
     
     .footer .foot .brand .brand-para,.footer .foot .links p,.footer .foot .contact p{
@@ -1997,6 +1999,22 @@ a,button{
   height:67px;
 }
 
+.container .section .box-1 img{
+  width:100%;
+  height:170px;
+}
+
+
+.container .section .box-1 a{
+  position: absolute;
+  font-size: 14px;
+  padding-left: 8px;
+  font-weight: 500;
+  bottom:10px;
+  color:#0000EE;
+}
+
+
 
 };
 
@@ -2062,5 +2080,6 @@ a,button{
     height:67px;
   }
 
+  
   
 }
