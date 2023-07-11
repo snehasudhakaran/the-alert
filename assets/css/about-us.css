@@ -148,7 +148,7 @@
     height:391px;
   }
   
-  @media screen and (min-device-width:320px) and (max-device-width:530px){
+  @media screen and (min-device-width:320px) and (max-device-width:600px){
     .container .magazines .text{
       text-align: center;
       width:95%;
@@ -737,8 +737,40 @@
         margin-top: 6px;
       }
     }
-  
-    @media screen and (min-device-width:707px) and (max-device-width:769px){
+    @media screen and (min-device-width:530px) and (max-device-width:600px){
+      .container .profile .alert .box p{
+        margin-top: 15px;
+      }
+
+      .container .magazines .magazine-box{
+        width:55%;
+        margin-bottom: 30px;
+      }
+      .container .quotes .quote{
+        padding-top: 9px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-weight: 600;
+        font-size: 14.5px;
+      }
+    }
+
+    @media screen and (min-device-width:530px) and (max-device-width:560px){
+      .container .quotes .quote{
+        padding-top: 1px;
+        padding-left: 5px;
+        padding-right: 5px;
+        font-weight: 600;
+        font-size: 14.5px;
+      }
+    }
+    @media screen and (min-device-width:580px) and (max-device-width:600px){
+      .container .section .text-wrapper{
+        margin-top: 147px !important;
+      }
+    }
+
+    @media screen and (min-device-width:601px) and (max-device-width:769px){
 
       .container .section{
         background:url("../images/slider_01-1.png") no-repeat;
@@ -841,7 +873,7 @@
        text-align: center;
        font-size: 30px;
        box-sizing: border-box;
-       padding-top: 3px;
+       padding-top: 10px;
       }
     
       .container .profile .alert .box p{
@@ -859,6 +891,20 @@
         margin-top: 186px ;
        }
     }
+
+    @media screen and (min-device-width:601px) and (max-device-width:650px){
+      .container .magazines .magazine-box{
+        width:59%;
+        margin-bottom: 30px;
+      }
+    }
+    @media screen and (min-device-width:651px) and (max-device-width:707px){
+      .container .magazines .magazine-box{
+        width:55%;
+        margin-bottom: 30px;
+      }
+    }
+
     @media screen and (min-device-width:1010px) and (max-width:1018px){
       .container .profile .alert .box p{
         font-size: 20px;
