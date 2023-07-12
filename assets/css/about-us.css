@@ -994,18 +994,18 @@
     @media screen and (min-device-width:1156px) and (max-device-width:1441px){
       .container .navbar .nav #home{
         width:96px !important;
-        font-size: 23px;
+        font-size: 20px;
+      }
+      .container .navbar .nav #about{
+        font-size: 20px;
+        width:126px !important;
       }
       .container .navbar .nav #magazine{
-        font-size: 23px;
-        width:176px !important;
-      }
-      .container .navbar .nav #magazine{
-        font-size: 23px;
+        font-size: 20px;
         width:176px !important;
       }
       .container .navbar .nav #business{
-        font-size: 23px;
+        font-size: 20px;
         width:156px !important;
       }
     }

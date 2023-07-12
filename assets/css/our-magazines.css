@@ -880,6 +880,27 @@
 }
 
 @media screen and (min-device-width:1156px) and (max-device-width:1441px){
+  .container .navbar{
+    height:122px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.container .navbar .box{
+    width:300px !important;
+    height: 82px;
+    background-color: #ffb23b;
+    margin-top: 20.5px;
+    position: relative;
+}
+
+.container .navbar .box img{
+  position: absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:82px;
+}
   .container .quotes .img{
     position: absolute;
     top:-10px;
@@ -900,25 +921,25 @@
     width:70%;
   }
   .contact .navbar .nav a{
-    font-size: 23px !important;
+    font-size: 20px !important;
   }
   .container .navbar .nav #home{
-    width:96px;
-    font-size: 23px;
+    width:96px !important;
+    font-size: 20px;
   }
 
   .container .navbar .nav #about{
-    width:126px;
-    font-size: 23px;
+    width:126px !important;
+    font-size: 20px;
   }
 
   .container .navbar .nav #magazine{
-    font-size: 23px;
-    width:176px;
+    font-size: 20px;
+    width:176px !important;
   }
   .container .navbar .nav #business{
-    font-size: 23px;
-    width:156px;
+    font-size: 20px;
+    width:156px !important;
   }
   .container .navbar .icons img{
     width:40px;

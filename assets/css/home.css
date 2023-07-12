@@ -60,23 +60,23 @@ a,button{
 }
 
 .container .navbar .nav #home{
-  width:86px;
+  width:96px !important;
   background-color: #ffb23b;
   color:black;
 }
 
 .container .navbar .nav #about{
-  width:106px;
+  width:126px !important;
   font-size: 20px;
 }
 
 .container .navbar .nav #magazine{
-  width:160px;
+  width:176px !important;
   font-size: 20px;
 }
 
 .container .navbar .nav #business{
-  width:140px;
+  width:156px !important;
 }
 
 .container .navbar .icons img{
@@ -1736,6 +1736,11 @@ a,button{
  }
 }
 
+@media screen and (min-device-width:600px) and (max-device-width:660px){
+  
+  
+}
+
 @media screen and (min-device-width:1071px) and (max-device-width:1100px){
 
   .container .section{
@@ -2144,6 +2149,61 @@ a,button{
 
 
 @media screen and (min-device-width:1156px) and (max-device-width:1441px){
+
+  .container .navbar{
+    height:122px;
+    display:flex;
+    justify-content: space-between;
+}
+
+.container .navbar .box{
+    width:300px;
+    height: 82px;
+    background-color: #ffb23b;
+    margin-top: 20.5px;
+    position: relative;
+}
+
+.container .navbar .box img{
+  position: absolute;
+  top:0px;
+  left:0px;
+  width:100%;
+  height:82px;
+}
+
+.container .navbar .nav{
+  display:flex;
+  gap:0px;
+  margin-left: 0px;
+}
+
+.container .navbar .nav a{
+  text-decoration: none;
+  display:flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(92, 90, 90);
+  font-size: 23px !important;
+}
+
+.container .navbar .nav #home{
+  width:96px !important;
+  font-size: 23px;
+}
+.container .navbar .nav #about{
+  font-size: 23px;
+  width:126px !important;
+}
+.container .navbar .nav #magazine{
+  font-size: 23px;
+  width:176px !important;
+}
+.container .navbar .nav #business{
+  font-size: 23px;
+  width:156px !important;
+}
+
  
   .container .quotes .img{
     position: absolute;
@@ -2165,27 +2225,7 @@ a,button{
   .contact .navbar .nav {
     width:70%;
   }
-  .contact .navbar .nav a{
-    font-size: 23px !important;
-  }
-  .container .navbar .nav #home{
-    width:96px;
-    font-size: 23px;
-  }
-
-  .container .navbar .nav #about{
-    width:126px !important;
-    font-size: 23px;
-  }
-
-  .container .navbar .nav #magazine{
-    font-size: 23px;
-    width:176px;
-  }
-  .container .navbar .nav #business{
-    font-size: 23px;
-    width:156px;
-  }
+  
   .container .navbar .icons img{
     width:40px;
     height:40px;

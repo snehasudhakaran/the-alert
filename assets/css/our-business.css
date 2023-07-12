@@ -500,25 +500,25 @@
       width:70%;
     }
     .contact .navbar .nav a{
-      font-size: 23px !important;
+      font-size: 20px !important;
     }
     .container .navbar .nav #home{
-      width:96px;
-      font-size: 23px;
+      width:96px !important;
+      font-size: 20px;
     }
   
     .container .navbar .nav #about{
-      width:126px;
-      font-size: 23px;
+      width:126px !important;
+      font-size: 20px;
     }
   
     .container .navbar .nav #magazine{
-      font-size: 23px;
-      width:176px;
+      font-size: 20px;
+      width:176px !important;
     }
     .container .navbar .nav #business{
-      font-size: 23px;
-      width:156px;
+      font-size: 20px;
+      width:156px !important;
     }
     .container .navbar .icons img{
       width:40px;
