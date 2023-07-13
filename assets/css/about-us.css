@@ -110,6 +110,7 @@
 
   .container .profile{
     display: grid;
+    display:-webkit-grid;
     grid-template-columns: 719px 352px;
     gap:13px;
     margin-bottom: 40px;
@@ -120,6 +121,7 @@
     margin-bottom: 4px;
     height: 75px;
     display:flex;
+    display:-webkit-flex;
     gap: 4px;
     text-align: center;
   }
@@ -224,6 +226,7 @@
 
     .container .profile{
       display: grid;
+      display:-webkit-grid;
       grid-template-columns: 100%;
       margin-bottom: 40px;
     }
@@ -232,6 +235,7 @@
       margin-bottom: 4px !important;
       height: 50px !important;
       display:flex;
+      display:-webkit-flex;
       text-align: center;
     }
   
@@ -292,30 +296,11 @@
   @media screen and (min-device-width:445px) and (max-device-width:530px){
     .container .magazines .boxes{
       display: grid;
+      display:-webkit-grid;
       grid-template-columns: 70% !important;
       justify-content: center;
     }
-    .container .navbar .nav{
-      display:flex ;
-      gap:0px;
-      margin-left: 0px;
-    }
-    .container .navbar .nav #home{
-      width:126px !important;
-      color:black;
-    }
     
-    .container .navbar .nav #about{
-      width:130px !important;
-    }
-    
-    .container .navbar .nav #magazine{
-      width:160px !important;
-    }
-    
-    .container .navbar .nav #business{
-      width:140px !important;
-    }
   }
   @media screen and (min-device-width:405px) and (max-device-width:469px){
     .container .magazines .magazine-box{
@@ -367,46 +352,6 @@
       display: block;
       margin: auto;
       /* background-color: black; */
-    }
-    
-    .container .navbar{
-      width:100%;
-      height:50px;
-      font-size: 15px;
-      display:grid;
-      grid-template-columns:100%;
-      justify-content: space-between;
-    }
-    
-    .container .navbar .box{
-      display: block;
-      width:40px;
-      margin-top: 5px;
-      background-color: #ffb23b !important;
-      height: 40px;
-    }
-
-    .container .navbar .nav{
-      display:flex;
-      gap:0px;
-      margin-left: 0px;
-    }
-
-    .container .navbar .nav #home{
-      font-size: 15px;
-      width:58px;
-    }
-
-    .container .quotes{
-      height:70px;
-      margin: 35px 0px;
-      margin-bottom: 20px;
-      padding: 7px;
-    }
-   
-    .container .navbar .nav #about{
-      width:140px;
-      font-size: 15px;
     }
     
     .container .navbar .nav #magazine{
@@ -477,6 +422,7 @@
 
   .container .profile{
     display: grid;
+    display:-webkit-grid;
     grid-template-columns: 100%;
     margin-bottom: 40px;
   }
@@ -546,56 +492,6 @@
     height:1px;
 }
 
-.container .navbar{
-  width:100%;
-  height:70px;
-  font-size: 15px;
-  display:grid;
-  grid-template-columns:100%;
-  gap:35px;
-  justify-content: start;
-}
-
-.container .navbar .box{
-  display: none;
-  width:40px;
-  margin-top: 15px;
-  background-color: #ffb23b !important;
-  height: 40px;
-}
-
-.container .navbar .nav{
-  display:flex;
-  gap:0px;
-  margin-left: 0px;
-  text-align: center;
-}
-
-.container .navbar .nav a{
-  font-size: 14px;
-}
-
-.container .navbar .nav #home{
-  width:60px;
-}
-
-.container .navbar .nav #about{
-  width:150px !important;
-  font-size: 14px;
-  padding: 7px;
-}
-
-.container .navbar .nav #magazine{
-  width:235px !important;
-  font-size: 14px;
-  padding: 7px;
-}
-
-.container .navbar .nav #business{
-  font-size: 14px;
-  width:210px !important;
-  padding: 7px;
-}
 
 .container .quotes{
   height:70px;
@@ -634,6 +530,7 @@
   margin-bottom: -19px;
   height: 75px;
   display:flex;
+  display:-webkit-flex;
   gap: 4px;
   text-align: center;
 }
@@ -651,64 +548,7 @@
       .container .profile .alert .box .A{
         width: 13%;
        }
-       .container .navbar{
-        width:100%;
-        height:70px;
-        font-size: 15px;
-        display:grid;
-        grid-template-columns:100%;
-        gap: 70px;
-        justify-content: start;
-      }
-      
-      .container .navbar .box{
-        display: block;
-        width:43px;
-        margin-top: 13px;
-        background-color: #ffb23b !important;
-        height: 43px;
-      }
-      
-      .container .navbar .nav{
-        display:flex;
-        gap:0px;
-        margin-left: 0px;
-        text-align: center;
-      }
-      
-      .container .navbar .nav a{
-        font-size: 14px;
-      }
-      
-      .container .navbar .nav #home{
-        width:80px;
-        padding: 6px;
-        font-size: 14px;
-      }
-      
-      .container .navbar .nav #about{
-        width:90px !important;
-        font-size: 14px;
-        padding: 6px;
-      }
-      
-      .container .navbar .nav #magazine{
-        width:135px !important;
-        font-size: 14px;
-        padding: 6px;
-      }
-      
-      .container .navbar .nav #business{
-        font-size: 14px;
-        width:100px !important;
-        padding: 6px;
-      }
-
-      .container .navbar .box {
-        display:none;
-      }
-  
-    }
+  }
 
     @media screen and (min-device-width:469px) and (max-device-width:530px){
       .container .quotes{
@@ -783,7 +623,9 @@
       }
 
       .container .navbar .nav{
+        width:70%;
         display:flex;
+        display:-webkit-flex;
         gap:0px;
         margin-left: 50px;
         font-size: 15px;
@@ -791,21 +633,21 @@
       .container .navbar .nav #home{
         font-size: 16px;
         color:black;
-        width:56px;
+        width:70px !important;
       }
      
       .container .navbar .nav #about{
-        width:80px;
+        width:90px  !important;
         font-size: 15px;
       }
       
       .container .navbar .nav #magazine{
-        width:110px;
+        width:135px !important;
         font-size: 15px;
       }
   
       .container .navbar .nav #business{
-        width:105px;
+        width:120px !important;
         font-size: 15px;
       }
 
@@ -856,6 +698,7 @@
       }
       .container .profile{
         display: grid;
+        display:-webkit-grid;
         grid-template-columns: 100%;
         margin-top: -10px;
       }
@@ -863,6 +706,7 @@
         margin-bottom: 4px !important;
         height: 60px !important;
         display:flex;
+        display:-webkit-flex;
         text-align: center;
       }
     
@@ -969,6 +813,7 @@
     
       .container .profile{
         display: grid;
+        display:-webkit-grid;
         grid-template-columns: 63% 35%;
         gap:18px;
       }
@@ -992,20 +837,61 @@
     
 
     @media screen and (min-device-width:1156px) and (max-device-width:1441px){
+      .container .navbar{
+        height:122px;
+        display:flex;
+        display:-webkit-flex;
+        justify-content: space-between;
+    }
+    
+    .container .navbar .box{
+        width:300px;
+        height: 82px;
+        background-color: #ffb23b;
+        margin-top: 20.5px;
+        position: relative;
+    }
+    
+    .container .navbar .box img{
+      position: absolute;
+      top:0px;
+      left:0px;
+      width:100%;
+      height:82px;
+    }
+    .contact .navbar .nav {
+      width:70%;
+      display:flex;
+      display:-webkit-flex;
+      gap:0px;
+      margin-left: 0px;
+    }
+    
+    .container .navbar .nav a{
+      text-decoration: none;
+      display:flex;
+      display:-webkit-flex;
+      justify-content: center;
+      align-items: center;
+      color: rgb(92, 90, 90);
+    }
       .container .navbar .nav #home{
         width:96px !important;
-        font-size: 20px;
       }
       .container .navbar .nav #about{
-        font-size: 20px;
         width:126px !important;
       }
       .container .navbar .nav #magazine{
-        font-size: 20px;
         width:176px !important;
       }
       .container .navbar .nav #business{
-        font-size: 20px;
         width:156px !important;
+      }
+      .container .navbar .icons img{
+        width:40px;
+        height:40px;
+        margin-right: 5px;
+        margin-top: 40.5px;
+        cursor: pointer;
       }
     }
